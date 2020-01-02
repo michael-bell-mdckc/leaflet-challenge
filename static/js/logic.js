@@ -110,9 +110,9 @@ function createMap(earthquakes) {
     // add legend to the map
     legend.addTo(myMap);
 
-    // Create a layer control
-    // Pass in our baseMaps and overlayMaps
-    // Add the layer control to the map
+    // create a layer control and
+    // pass in our baseMaps and overlayMaps and
+    // add the layer control to the map
     L.control.layers(baseMaps, overlayMaps, {
         collapsed: false
     }).addTo(myMap);
